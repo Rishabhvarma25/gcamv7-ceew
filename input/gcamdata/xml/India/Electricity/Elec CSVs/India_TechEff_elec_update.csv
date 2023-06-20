@@ -1,0 +1,90 @@
+INPUT_TABLE,,,,,,
+Variable ID,,,,,,
+RegionTechEff_new,,,,,,
+,,,,,,
+Region,supplysector,subsector,technology,year,minicam.energy.input,efficiency
+India,elec_coal (conv pul),coal (conv pul),coal (conv pul) (once through),2020,regional coal,0.4
+India,elec_coal (conv pul),coal (conv pul),coal (conv pul) (once through),2025,regional coal,0.4
+India,elec_coal (conv pul),coal (conv pul),coal (conv pul) (once through),2030,regional coal,0.4
+India,elec_coal (conv pul),coal (conv pul),coal (conv pul) (once through),2035,regional coal,0.4
+India,elec_coal (conv pul),coal (conv pul),coal (conv pul) (once through),2040,regional coal,0.4
+India,elec_coal (conv pul),coal (conv pul),coal (conv pul) (once through),2045,regional coal,0.4
+India,elec_coal (conv pul),coal (conv pul),coal (conv pul) (once through),2050,regional coal,0.4
+India,elec_coal (conv pul),coal (conv pul),coal (conv pul) (once through),2055,regional coal,0.4
+India,elec_coal (conv pul),coal (conv pul),coal (conv pul) (once through),2060,regional coal,0.4
+India,elec_coal (conv pul),coal (conv pul),coal (conv pul) (once through),2065,regional coal,0.4
+India,elec_coal (conv pul),coal (conv pul),coal (conv pul) (once through),2070,regional coal,0.4
+India,elec_coal (conv pul),coal (conv pul),coal (conv pul) (once through),2075,regional coal,0.4
+India,elec_coal (conv pul),coal (conv pul),coal (conv pul) (once through),2080,regional coal,0.4
+India,elec_coal (conv pul),coal (conv pul),coal (conv pul) (once through),2085,regional coal,0.4
+India,elec_coal (conv pul),coal (conv pul),coal (conv pul) (once through),2090,regional coal,0.4
+India,elec_coal (conv pul),coal (conv pul),coal (conv pul) (once through),2095,regional coal,0.4
+India,elec_coal (conv pul),coal (conv pul),coal (conv pul) (once through),2100,regional coal,0.4
+India,elec_coal (conv pul),coal (conv pul),coal (conv pul) (seawater),2020,regional coal,0.4
+India,elec_coal (conv pul),coal (conv pul),coal (conv pul) (seawater),2025,regional coal,0.4
+India,elec_coal (conv pul),coal (conv pul),coal (conv pul) (seawater),2030,regional coal,0.4
+India,elec_coal (conv pul),coal (conv pul),coal (conv pul) (seawater),2035,regional coal,0.4
+India,elec_coal (conv pul),coal (conv pul),coal (conv pul) (seawater),2040,regional coal,0.4
+India,elec_coal (conv pul),coal (conv pul),coal (conv pul) (seawater),2045,regional coal,0.4
+India,elec_coal (conv pul),coal (conv pul),coal (conv pul) (seawater),2050,regional coal,0.4
+India,elec_coal (conv pul),coal (conv pul),coal (conv pul) (seawater),2055,regional coal,0.4
+India,elec_coal (conv pul),coal (conv pul),coal (conv pul) (seawater),2060,regional coal,0.4
+India,elec_coal (conv pul),coal (conv pul),coal (conv pul) (seawater),2065,regional coal,0.4
+India,elec_coal (conv pul),coal (conv pul),coal (conv pul) (seawater),2070,regional coal,0.4
+India,elec_coal (conv pul),coal (conv pul),coal (conv pul) (seawater),2075,regional coal,0.4
+India,elec_coal (conv pul),coal (conv pul),coal (conv pul) (seawater),2080,regional coal,0.4
+India,elec_coal (conv pul),coal (conv pul),coal (conv pul) (seawater),2085,regional coal,0.4
+India,elec_coal (conv pul),coal (conv pul),coal (conv pul) (seawater),2090,regional coal,0.4
+India,elec_coal (conv pul),coal (conv pul),coal (conv pul) (seawater),2095,regional coal,0.4
+India,elec_coal (conv pul),coal (conv pul),coal (conv pul) (seawater),2100,regional coal,0.4
+India,elec_coal (conv pul),coal (conv pul),coal (conv pul) (recirculating),2020,regional coal,0.4
+India,elec_coal (conv pul),coal (conv pul),coal (conv pul) (recirculating),2025,regional coal,0.4
+India,elec_coal (conv pul),coal (conv pul),coal (conv pul) (recirculating),2030,regional coal,0.4
+India,elec_coal (conv pul),coal (conv pul),coal (conv pul) (recirculating),2035,regional coal,0.4
+India,elec_coal (conv pul),coal (conv pul),coal (conv pul) (recirculating),2040,regional coal,0.4
+India,elec_coal (conv pul),coal (conv pul),coal (conv pul) (recirculating),2045,regional coal,0.4
+India,elec_coal (conv pul),coal (conv pul),coal (conv pul) (recirculating),2050,regional coal,0.4
+India,elec_coal (conv pul),coal (conv pul),coal (conv pul) (recirculating),2055,regional coal,0.4
+India,elec_coal (conv pul),coal (conv pul),coal (conv pul) (recirculating),2060,regional coal,0.4
+India,elec_coal (conv pul),coal (conv pul),coal (conv pul) (recirculating),2065,regional coal,0.4
+India,elec_coal (conv pul),coal (conv pul),coal (conv pul) (recirculating),2070,regional coal,0.4
+India,elec_coal (conv pul),coal (conv pul),coal (conv pul) (recirculating),2075,regional coal,0.4
+India,elec_coal (conv pul),coal (conv pul),coal (conv pul) (recirculating),2080,regional coal,0.4
+India,elec_coal (conv pul),coal (conv pul),coal (conv pul) (recirculating),2085,regional coal,0.4
+India,elec_coal (conv pul),coal (conv pul),coal (conv pul) (recirculating),2090,regional coal,0.4
+India,elec_coal (conv pul),coal (conv pul),coal (conv pul) (recirculating),2095,regional coal,0.4
+India,elec_coal (conv pul),coal (conv pul),coal (conv pul) (recirculating),2100,regional coal,0.4
+India,elec_coal (conv pul),coal (conv pul),coal (conv pul) (cooling pond),2020,regional coal,0.4
+India,elec_coal (conv pul),coal (conv pul),coal (conv pul) (cooling pond),2025,regional coal,0.4
+India,elec_coal (conv pul),coal (conv pul),coal (conv pul) (cooling pond),2030,regional coal,0.4
+India,elec_coal (conv pul),coal (conv pul),coal (conv pul) (cooling pond),2035,regional coal,0.4
+India,elec_coal (conv pul),coal (conv pul),coal (conv pul) (cooling pond),2040,regional coal,0.4
+India,elec_coal (conv pul),coal (conv pul),coal (conv pul) (cooling pond),2045,regional coal,0.4
+India,elec_coal (conv pul),coal (conv pul),coal (conv pul) (cooling pond),2050,regional coal,0.4
+India,elec_coal (conv pul),coal (conv pul),coal (conv pul) (cooling pond),2055,regional coal,0.4
+India,elec_coal (conv pul),coal (conv pul),coal (conv pul) (cooling pond),2060,regional coal,0.4
+India,elec_coal (conv pul),coal (conv pul),coal (conv pul) (cooling pond),2065,regional coal,0.4
+India,elec_coal (conv pul),coal (conv pul),coal (conv pul) (cooling pond),2070,regional coal,0.4
+India,elec_coal (conv pul),coal (conv pul),coal (conv pul) (cooling pond),2075,regional coal,0.4
+India,elec_coal (conv pul),coal (conv pul),coal (conv pul) (cooling pond),2080,regional coal,0.4
+India,elec_coal (conv pul),coal (conv pul),coal (conv pul) (cooling pond),2085,regional coal,0.4
+India,elec_coal (conv pul),coal (conv pul),coal (conv pul) (cooling pond),2090,regional coal,0.4
+India,elec_coal (conv pul),coal (conv pul),coal (conv pul) (cooling pond),2095,regional coal,0.4
+India,elec_coal (conv pul),coal (conv pul),coal (conv pul) (cooling pond),2100,regional coal,0.4
+India,elec_coal (conv pul),coal (conv pul),coal (conv pul) (dry cooling),2020,regional coal,1.4
+India,elec_coal (conv pul),coal (conv pul),coal (conv pul) (dry cooling),2025,regional coal,2.4
+India,elec_coal (conv pul),coal (conv pul),coal (conv pul) (dry cooling),2030,regional coal,3.4
+India,elec_coal (conv pul),coal (conv pul),coal (conv pul) (dry cooling),2035,regional coal,4.4
+India,elec_coal (conv pul),coal (conv pul),coal (conv pul) (dry cooling),2040,regional coal,5.4
+India,elec_coal (conv pul),coal (conv pul),coal (conv pul) (dry cooling),2045,regional coal,6.4
+India,elec_coal (conv pul),coal (conv pul),coal (conv pul) (dry cooling),2050,regional coal,7.4
+India,elec_coal (conv pul),coal (conv pul),coal (conv pul) (dry cooling),2055,regional coal,8.4
+India,elec_coal (conv pul),coal (conv pul),coal (conv pul) (dry cooling),2060,regional coal,9.4
+India,elec_coal (conv pul),coal (conv pul),coal (conv pul) (dry cooling),2065,regional coal,10.4
+India,elec_coal (conv pul),coal (conv pul),coal (conv pul) (dry cooling),2070,regional coal,11.4
+India,elec_coal (conv pul),coal (conv pul),coal (conv pul) (dry cooling),2075,regional coal,12.4
+India,elec_coal (conv pul),coal (conv pul),coal (conv pul) (dry cooling),2080,regional coal,13.4
+India,elec_coal (conv pul),coal (conv pul),coal (conv pul) (dry cooling),2085,regional coal,14.4
+India,elec_coal (conv pul),coal (conv pul),coal (conv pul) (dry cooling),2090,regional coal,15.4
+India,elec_coal (conv pul),coal (conv pul),coal (conv pul) (dry cooling),2095,regional coal,16.4
+India,elec_coal (conv pul),coal (conv pul),coal (conv pul) (dry cooling),2100,regional coal,17.4

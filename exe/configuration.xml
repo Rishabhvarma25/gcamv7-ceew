@@ -128,7 +128,7 @@
 		<Value name = "India intermittency cost">../input/gcamdata/xml/India/Electricity/India_IntTechBackup_elec.xml</Value>
 		
 		<!-- Tech efficiencies  -->
-		<Value name = "India other parameters">../input/gcamdata/xml/India/Electricity/India_elec_TechEff.xml</Value>
+		<Value name = "India other parameters">../input/gcamdata/xml/India/Electricity/India_TechEff_elec_update.xml</Value>
 			
 		<!-- Share weight -->
 		<Value name = "India other parameters">../input/gcamdata/xml/India/Electricity/India_elec_shrwt_1.xml</Value>
