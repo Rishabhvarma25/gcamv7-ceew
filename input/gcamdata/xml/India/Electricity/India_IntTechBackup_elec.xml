@@ -4,7 +4,6 @@
         <region name="India">
             <supplysector name="electricity">
                 <subsector name="solar">
-                    
                     <intermittent-technology name="PV">
                         <period year="1975">
                             <electric-sector-name>electricity</electric-sector-name>
