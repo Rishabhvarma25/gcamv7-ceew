@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><scenario>
+    <world>
+        <region name="Australia_NZ">
+            <ghgpolicy name="CO2">
+                <market>Australia_NZ</market>
+                <constraint year="2025">107.26</constraint>
+         <!--        <constraint year="2030">85.81</constraint>
+                <constraint year="2035">64.36</constraint>
+                <constraint year="2040">42.91</constraint>
+                <constraint year="2045">21.46</constraint>
+                <constraint year="2050">0.01</constraint>
+                <constraint year="2055">0.01</constraint>
+                <constraint year="2060">0.01</constraint>
+                <constraint year="2065">0.01</constraint>
+                <constraint year="2070">0.01</constraint> -->
+            </ghgpolicy>
+        </region>
+    </world>
+</scenario>

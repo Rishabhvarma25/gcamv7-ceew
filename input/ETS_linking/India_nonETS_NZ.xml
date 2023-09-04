@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><scenario>
+    <world>
+        <region name="India">
+            <ghgpolicy name="CO2nonETS">
+                <market>India</market>
+                <constraint year="2045">378.93</constraint>
+                <constraint year="2050">348.17</constraint>
+                <constraint year="2055">302.84</constraint>
+                <constraint year="2060">244.45</constraint>
+                <constraint year="2065">156.96</constraint>
+                <constraint year="2070">11.6</constraint>
+            </ghgpolicy>
+        </region>
+    </world>
+</scenario>

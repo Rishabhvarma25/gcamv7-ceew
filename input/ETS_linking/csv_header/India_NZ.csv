@@ -1,0 +1,11 @@
+INPUT_TABLE,,,,
+Variable ID,,,,
+IndiaNZ,,,,
+,,,,
+region,ghgpolicy,market,year,constraint
+India,CO2,India,2045,1443.0
+India,CO2,India,2050,1154.4
+India,CO2,India,2055,865.8
+India,CO2,India,2060,577.2
+India,CO2,India,2065,288.617889
+India,CO2,India,2070,0.01

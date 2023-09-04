@@ -1,0 +1,11 @@
+INPUT_TABLE,,,,
+Variable ID,,,,
+India_nonETS_NZ,,,,
+,,,,
+region,ghgpolicy,market,year,constraint
+India,CO2nonETS,India,2045,378.93
+India,CO2nonETS,India,2050,348.17
+India,CO2nonETS,India,2055,302.84
+India,CO2nonETS,India,2060,244.45
+India,CO2nonETS,India,2065,156.96
+India,CO2nonETS,India,2070,11.6

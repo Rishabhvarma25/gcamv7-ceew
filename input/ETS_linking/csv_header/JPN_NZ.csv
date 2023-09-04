@@ -1,0 +1,15 @@
+INPUT_TABLE,,,,
+Variable ID,,,,
+JapanNZ,,,,
+,,,,
+region,ghgpolicy,market,year,constraint
+Japan,CO2,Japan,2025,324.12
+Japan,CO2,Japan,2030,270.10
+Japan,CO2,Japan,2035,216.09
+Japan,CO2,Japan,2040,162.07
+Japan,CO2,Japan,2045,108.05
+Japan,CO2,Japan,2050,54.03
+Japan,CO2,Japan,2055,0.01
+Japan,CO2,Japan,2060,0.01
+Japan,CO2,Japan,2065,0.01
+Japan,CO2,Japan,2070,0.01

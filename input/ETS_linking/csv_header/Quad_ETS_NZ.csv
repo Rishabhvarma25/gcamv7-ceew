@@ -1,0 +1,14 @@
+INPUT_TABLE,,,,
+Variable ID,,,,
+QUADNZ,,,,
+,,,,
+region,ghgpolicy,market,year,constraint
+India,CO2,quad,2030,2577.89
+India,CO2,quad,2035,2477.53
+India,CO2,quad,2040,2367.33
+India,CO2,quad,2045,1760.9
+India,CO2,quad,2050,1154.47
+India,CO2,quad,2055,865.86
+India,CO2,quad,2060,577.26
+India,CO2,quad,2065,288.65
+India,CO2,quad,2070,0.04

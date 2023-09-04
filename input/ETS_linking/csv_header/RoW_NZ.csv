@@ -1,0 +1,15 @@
+INPUT_TABLE,,,,
+Variable ID,,,,
+RoWNZ,,,,
+,,,,
+region,ghgpolicy,market,year,constraint
+Africa_Eastern,CO2,row,2035,8376.30
+Africa_Eastern,CO2,row,2040,7445.60
+Africa_Eastern,CO2,row,2045,6514.90
+Africa_Eastern,CO2,row,2050,5584.20
+Africa_Eastern,CO2,row,2055,4653.50
+Africa_Eastern,CO2,row,2060,3722.81
+Africa_Eastern,CO2,row,2065,2792.11
+Africa_Eastern,CO2,row,2070,1861.41
+Africa_Eastern,CO2,row,2075,930.71
+Africa_Eastern,CO2,row,2080,0.01

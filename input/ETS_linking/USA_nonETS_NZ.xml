@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><scenario>
+    <world>
+        <region name="USA">
+            <ghgpolicy name="CO2nonETS">
+                <market>USA</market>
+                <constraint year="2030">617.3378633</constraint>
+                <constraint year="2035">441.9447314</constraint>
+                <constraint year="2040">254.8205787</constraint>
+                <constraint year="2045">68.20923236</constraint>
+                <constraint year="2050">-115.8767457</constraint>
+                <constraint year="2055">-107.9930154</constraint>
+                <constraint year="2060">-99.11253894</constraint>
+                <constraint year="2065">-76.72102948</constraint>
+                <constraint year="2070">-59.82549287</constraint>
+            </ghgpolicy>
+        </region>
+    </world>
+</scenario>

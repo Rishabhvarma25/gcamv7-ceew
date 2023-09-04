@@ -1,0 +1,13 @@
+#####, FINAL DEMAND
+
+IndiaNZ, world/+{name}region, region/+{name}ghgpolicy, ghgpolicy/+market, ghgpolicy/+{year}constraint, ghgpolicy/+constraint, scenario, scenario/world
+USANZ, world/+{name}region, region/+{name}ghgpolicy, ghgpolicy/+market, ghgpolicy/+{year}constraint, ghgpolicy/+constraint, scenario, scenario/world
+JapanNZ, world/+{name}region, region/+{name}ghgpolicy, ghgpolicy/+market, ghgpolicy/+{year}constraint, ghgpolicy/+constraint, scenario, scenario/world
+AUSNZ, world/+{name}region, region/+{name}ghgpolicy, ghgpolicy/+market, ghgpolicy/+{year}constraint, ghgpolicy/+constraint, scenario, scenario/world
+RoWNZ, world/+{name}region, region/+{name}ghgpolicy, ghgpolicy/+market, ghgpolicy/+{year}, ghgpolicy/+, scenario, scenario/world
+QUADNZ, world/+{name}region, region/+{name}ghgpolicy, ghgpolicy/+market, ghgpolicy/+{year}, ghgpolicy/+, scenario, scenario/world
+QUADETS, world/+{name}region, region/+{name}ghgpolicy, ghgpolicy/+market, ghgpolicy/+{year}, ghgpolicy/+, scenario, scenario/world
+IndianonETS, world/+{name}region, region/+{name}ghgpolicy, ghgpolicy/+market, ghgpolicy/+{year}, ghgpolicy/+, scenario, scenario/world
+USAnonETS, world/+{name}region, region/+{name}ghgpolicy, ghgpolicy/+market, ghgpolicy/+{year}, ghgpolicy/+, scenario, scenario/world
+JapannonETS, world/+{name}region, region/+{name}ghgpolicy, ghgpolicy/+market, ghgpolicy/+{year}, ghgpolicy/+, scenario, scenario/world
+AUSNZnonETS, world/+{name}region, region/+{name}ghgpolicy, ghgpolicy/+market, ghgpolicy/+{year}, ghgpolicy/+, scenario, scenario/world

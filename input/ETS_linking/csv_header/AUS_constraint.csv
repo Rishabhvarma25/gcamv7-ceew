@@ -1,0 +1,15 @@
+INPUT_TABLE,,,,
+Variable ID,,,,
+AUSNZ,,,,
+,,,,
+region,ghgpolicy,market,year,constraint
+Australia_NZ,CO2,Australia_NZ,2025,107.26
+Australia_NZ,CO2,Australia_NZ,2030,85.81
+Australia_NZ,CO2,Australia_NZ,2035,64.36
+Australia_NZ,CO2,Australia_NZ,2040,42.91
+Australia_NZ,CO2,Australia_NZ,2045,21.46
+Australia_NZ,CO2,Australia_NZ,2050,0.01
+Australia_NZ,CO2,Australia_NZ,2055,0.01
+Australia_NZ,CO2,Australia_NZ,2060,0.01
+Australia_NZ,CO2,Australia_NZ,2065,0.01
+Australia_NZ,CO2,Australia_NZ,2070,0.01

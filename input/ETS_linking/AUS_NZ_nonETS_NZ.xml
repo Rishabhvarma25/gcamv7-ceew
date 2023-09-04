@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><scenario>
+    <world>
+        <region name="Australia_NZ">
+            <ghgpolicy name="CO2nonETS">
+                <market>Australia_NZ</market>
+                <constraint year="2030">55.53</constraint>
+                <constraint year="2035">42.08</constraint>
+                <constraint year="2040">26.06</constraint>
+                <constraint year="2045">9.98</constraint>
+                <constraint year="2050">-6.27</constraint>
+                <constraint year="2055">-6.56</constraint>
+                <constraint year="2060">-5.69</constraint>
+                <constraint year="2065">-4.32</constraint>
+                <constraint year="2070">-3.44</constraint>
+            </ghgpolicy>
+        </region>
+    </world>
+</scenario>
