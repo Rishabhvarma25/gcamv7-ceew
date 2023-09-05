@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BatchRunner xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="batch_runner.xsd">
+	<ComponentSet name="Policy Scenarios">
+		
+		<!-- <FileSet name="_NoConstraint">
+		</FileSet> --> 
+		
+		<!-- # Each QUAD country reaches NZ on its own -->
+		<FileSet name="_NZ_own">
+		<Value name = "India NZ">../input/ETS_linking/India_NZ.xml </Value>
+		<Value name = "USA NZ">../input/ETS_linking/USA_NZ_wNDC.xml </Value>
+		<Value name = "Japan NZ">../input/ETS_linking/JPN_NZ_wNDC.xml </Value>
+		<Value name = "AUS+NZ_NZ">../input/ETS_linking/AUS_NZ_NZ.xml </Value>
+		<Value name = "ROW NZ">../input/ETS_linking/RoW_NZ.xml</Value>
+		</FileSet>
+		
+		<!-- # NZ+Full_linking_early -->
+		<!-- <FileSet name="_NZ_full_link">
+		<Value name = "JPN target for 2025">../input/ETS_linking/JPN_NZ_for_partial_link.xml</Value>
+		<Value name = "AUS_NZ target for 2025">../input/ETS_linking/AUS_NZ_for_partial_link.xml</Value>
+		<Value name = "USA target for 2025">../input/ETS_linking/USA_NZ_for_partial_link.xml</Value>
+		<Value name = "QUAD link">../input/ETS_linking/QUAD_Full_link_constraint.xml</Value>
+		<Value name = "ROW NZ">../input/ETS_linking/RoW_NZ.xml</Value>
+		</FileSet> -->
+		
+		<!-- # NZ+Full_linking_delay -->
+		<!-- <FileSet name="_NZ_full_link">
+		<Value name = "QUAD link delay">../input/ETS_linking/QUAD_Full_link_constraint_delay.xml</Value>
+		<Value name = "ROW NZ">../ETS_linking/ROW_NZ.xml</Value> 
+		</FileSet>
+		
+		<!-- # NZ+Partial_linking (only 4 ETS sectors) -->
+		<!-- <FileSet name="_NZ_Partial_link_4sectors">
+		<Value name = "JPN target for 2025">../input/ETS_linking/JPN_NZ_for_partial_link.xml</Value>
+		<Value name = "AUS_NZ target for 2025">../input/ETS_linking/AUS_NZ_for_partial_link.xml</Value>
+		<Value name = "USA target for 2025">../input/ETS_linking/USA_NZ_for_partial_link.xml</Value>
+		<Value name = "QUAD constraint link 4 sectors">../input/ETS_linking/QUAD_partial_link_constraint.xml</Value>
+		<Value name = "QUAD link 4 sectors">../input/ETS_linking/QUAD_partial_link_file.xml</Value>
+		<Value name = "India non-ETS NZ">../input/ETS_linking/India_nonETS_NZ.xml </Value>
+		<Value name = "USA non-ETS NZ">../input/ETS_linking/USA_nonETS_NZ.xml </Value>
+		<Value name = "Japan non-ETS NZ">../input/ETS_linking/JPN_nonETS_NZ.xml </Value>
+		<Value name = "AUS+NZ non-ETS NZ">../input/ETS_linking/AUS_NZ_nonETS_NZ.xml </Value>
+		<Value name = "Link non-ETS sectors">../input/ETS_linking/QUAD_partial_link_file_nonETS.xml</Value>
+		<Value name = "ROW NZ">../input/ETS_linking/ROW_NZ.xml</Value> 
+		</FileSet> -->
+		
+		
+		<!-- # NZ+Partial_linking (only 4 ETS sectors) delay -->
+		<!-- <FileSet name="_NZ_Partial_link_4sectors">
+		<Value name = "QUAD constraint link 4 sectors">../input/ETS_linking/QUAD_partial_link_delay_constraint.xml</Value>
+		<Value name = "QUAD link 4 sectors">../input/ETS_linking/QUAD_partial_link_file.xml</Value>
+		<Value name = "India non-ETS NZ">../input/ETS_linking/India_nonETS_delay_NZ.xml </Value>
+		<Value name = "USA non-ETS NZ">../input/ETS_linking/USA_nonETS_delay_NZ.xml </Value>
+		<Value name = "Japan non-ETS NZ">../input/ETS_linking/JPN_nonETS_delay_NZ.xml </Value>
+		<Value name = "AUS+NZ non-ETS NZ">../input/ETS_linking/AUS_NZ_nonETS_delay_NZ.xml </Value>
+		<Value name = "ROW NZ">../ETS_linking/ROW_NZ.xml</Value>
+		</FileSet> -->
+		
+	<!-- #NZ+Partial linking (only power sector) -->
+		
+		<!-- # NZ+Partial_linking (only power sector) -->
+		<!-- <FileSet name="_NZ_Partial_link_4sectors">
+		<Value name = "QUAD constraint link power sector">../input/ETS_linking/QUAD_partial_link_elec_constraint.xml</Value>
+		<Value name = "QUAD link 4 sectors">../input/ETS_linking/QUAD_partial_link_elec_file.xml</Value>
+		<Value name = "India non-ETS NZ">../input/ETS_linking/India_nonETS_elec_NZ.xml </Value>
+		<Value name = "USA non-ETS NZ">../input/ETS_linking/USA_nonETS_elec_NZ.xml </Value>
+		<Value name = "Japan non-ETS NZ">../input/ETS_linking/JPN_nonETS_elec_NZ.xml </Value>
+		<Value name = "AUS+NZ non-ETS NZ">../input/ETS_linking/AUS_NZ_nonETS_elec_NZ.xml </Value>
+		<Value name = "ROW NZ">../ETS_linking/ROW_NZ.xml</Value> 
+		</FileSet> -->
+		
+		
+	
+		
+	</ComponentSet>
+</BatchRunner>
