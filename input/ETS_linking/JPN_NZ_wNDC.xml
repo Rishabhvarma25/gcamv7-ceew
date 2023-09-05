@@ -3,12 +3,13 @@
         <region name="Japan">
             <ghgpolicy name="CO2">
                 <market>Japan</market>
-                <constraint year="2025">270.10</constraint>
-                <constraint year="2030">216.09</constraint>
-                <constraint year="2035">162.07</constraint>
-                <constraint year="2040">108.05</constraint>
-                <constraint year="2045">54.03</constraint>
-                <constraint year="2050">0.01</constraint>
+                <constraint year="2025">250</constraint>
+                <constraint year="2030">175</constraint>
+                <constraint year="2035">131</constraint>
+                <constraint year="2040">87</constraint>
+                <constraint year="2045">43</constraint>
+                <constraint year="2050">0.1</constraint>
+                <constraint year="2055">0.01</constraint>
                 <constraint year="2060">0.01</constraint>
                 <constraint year="2065">0.01</constraint>
                 <constraint year="2070">0.01</constraint>

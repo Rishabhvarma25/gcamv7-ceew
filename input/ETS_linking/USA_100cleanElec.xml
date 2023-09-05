@@ -3,7 +3,7 @@
    <world>
       <region name="India">
          <supplysector name="electricity">
-        <subsector name="wind">
+			<subsector name="wind">
                <intermittent-technology name="wind">
                    <period year="2015">
                      <input-subsidy name="RPSCredits">

@@ -3,11 +3,11 @@
         <region name="USA">
             <ghgpolicy name="CO2">
                 <market>USA</market>
-                <constraint year="2025">1211.78</constraint>
-                <constraint year="2030">969.43</constraint>
-                <constraint year="2035">727.07</constraint>
-                <constraint year="2040">484.72</constraint>
-                <constraint year="2045">242.36</constraint>
+                <constraint year="2025">1211</constraint>
+                <constraint year="2030">800</constraint>
+                <constraint year="2035">600</constraint>
+                <constraint year="2040">400</constraint>
+                <constraint year="2045">200</constraint>
                 <constraint year="2050">0.01</constraint>
                 <constraint year="2055">0.01</constraint>
                 <constraint year="2060">0.01</constraint>
@@ -18,4 +18,6 @@
     </world>
 </scenario>
 
-<!-- Based on linear decline to zero in 2050 after peaking in 2020 -->
+
+<!-- This emission constraint achieves the 2030 NDC target of of 50-52% reductions below 2005 levels, covering all sectors and all gases
+and 26-28% BELOW 2005 LEVELS IN 2025-->
