@@ -105,8 +105,8 @@
 		<!-- India specific parameters (Don't change!!) - based on carbon markets paper -->
 		<Value name = "India GDP HighGR">../input/gcamdata/xml/India/Socioeconomics/LTS_India_update_BAU-new.xml</Value>
 		<Value name = "India laborforce">../input/gcamdata/xml/India/Socioeconomics/Laborforce.xml</Value>
-		<Value name = "India capital cost">../input/gcamdata/xml/India/Electricity/India_state_tech_CC_now.xml</Value> 
-		<Value name = "India capital cost">../input/gcamdata/xml/India/Electricity/India_state_inttech_CC_RT_now.xml</Value>
+		<Value name = "India capital cost conv">../input/gcamdata/xml/India/Electricity/India_state_tech_CC_now.xml</Value> 
+		<Value name = "India capital cost RE">../input/gcamdata/xml/India/Electricity/India_state_inttech_CC_RT_now.xml</Value>
 		<Value name = "India capacity factor">../input/gcamdata/xml/India/Electricity/India_state_tech_CF_now.xml</Value>
         <Value name = "India capacity factor">../input/gcamdata/xml/India/Electricity/India_state_inttech_CF_RT_now.xml</Value>
 		<Value name = "India wind cc correction">../input/gcamdata/xml/India/Electricity/India_wind_reg_prc_adjust.xml</Value> 
@@ -129,7 +129,10 @@
 		<Value name = "Building heating cooling days">../input/gcamdata/xml/India/Building/CDD_HDD_BAU.xml</Value>
 		<Value name = "Building fuel adder">../input/gcamdata/xml/India/Building/IndiaBuildingFuelAdder.xml</Value>
 		
-
+		<Value name = "QUAD capital cost RE">../input/gcamdata/xml/India/Electricity/QUAD_state_inttech_CC.xml</Value>
+		<Value name = "QUAD capital cost non-RE">../input/gcamdata/xml/India/Electricity/QUAD_state_tech_CC.xml</Value>
+		<!-- <Value name = "USA other parameters">../input/gcamdata/xml/India/Electricity/USA_state_inttech_OMfixedvar.xml</Value> -->
+		<!-- <Value name = "USA intermittency cost">../input/gcamdata/xml/India/Electricity/USA_IntTechBackup_elec.xml</Value> -->
         <Value name = "prune_ag">../input/gcamdata/xml/prune_empty_ag.xml</Value>
 
 		<Value name = "solver">../input/solution/cal_broyden_config.xml</Value>
@@ -165,8 +168,8 @@
 		<Value name="climateOutputInterval">5</Value>
 		<Value name="parallel-grain-size">50</Value>
 		<Value name="stop-period">-1</Value>
-		<Value name="stop-year">2035</Value>
-		<Value name="restart-period">-1		</Value>
+		<Value name="stop-year">2025</Value>
+		<Value name="restart-period">3</Value>
 		<Value name="restart-year">-1</Value>
 		<Value name="max-parallelism">-1</Value>
 	</Ints>

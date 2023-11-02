@@ -2,17 +2,17 @@
 <BatchRunner xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="batch_runner.xsd">
 	<ComponentSet name="Policy Scenarios">
 		
-		<!-- <FileSet name="_NoConstraint">
-		</FileSet> --> 
+		<FileSet name="_NoConstraint">
+		</FileSet>
 		
 		<!-- # Each QUAD country reaches NZ on its own -->
-		<FileSet name="_NZ_own">
+		<!-- <FileSet name="_NZ_own">
 		<Value name = "India NZ">../input/ETS_linking/India_NZ.xml </Value>
 		<Value name = "USA NZ">../input/ETS_linking/USA_NZ_wNDC.xml </Value>
 		<Value name = "Japan NZ">../input/ETS_linking/JPN_NZ_wNDC.xml </Value>
 		<Value name = "AUS+NZ_NZ">../input/ETS_linking/AUS_NZ_NZ.xml </Value>
 		<Value name = "ROW NZ">../input/ETS_linking/RoW_NZ.xml</Value>
-		</FileSet>
+		</FileSet> -->
 		
 		<!-- # NZ+Full_linking_early -->
 		<!-- <FileSet name="_NZ_full_link">
