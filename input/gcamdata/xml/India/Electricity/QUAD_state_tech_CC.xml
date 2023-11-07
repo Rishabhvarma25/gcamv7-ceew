@@ -318,8 +318,8 @@
                     <intermittent-technology name="biomass (conv)">
                         <period year="2020">
                             <input-capital name="capital">
-                                <capital-overnight>1042</capital-overnight>
-                                <fixed-charge-rate>0.18355</fixed-charge-rate>
+                                <capital-overnight>500</capital-overnight>
+                                <fixed-charge-rate>0.036</fixed-charge-rate>
                             </input-capital>
                         </period>
                         <period year="2025">

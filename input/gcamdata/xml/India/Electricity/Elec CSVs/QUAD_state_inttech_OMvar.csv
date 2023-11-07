@@ -1,6 +1,6 @@
 INPUT_TABLE,,,,,,
 Variable ID,,,,,,
-QUADRegionIntTechOMvar,,,,,,
+QUADRegionInTechOMvar,,,,,,
 ,,,,,,
 region,supplysector,subsector,intermittent.technology,year,input.OM.var,OM.var
 USA,electricity,wind,wind,1975,OM-var,0
