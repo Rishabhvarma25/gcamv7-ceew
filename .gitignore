@@ -11,4 +11,4 @@
 .Rproj.user
 /input/gcamdata/inst/extdata/gcam-usa
 /input/gcamdata/man
-/input/gcamdata/R
+/input/gcamdata/.drake
