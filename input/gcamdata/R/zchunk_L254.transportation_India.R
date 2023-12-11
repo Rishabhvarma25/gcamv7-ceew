@@ -133,6 +133,7 @@ module_india_L254.transportation <- function(command, ...) {
     A54.india_tranSubsectorSpeed_noVOTT <- get_data(all_data, "gcam-india/A54.india_tranSubsectorSpeed_noVOTT")
     L254.tranSubsectorSpeed_nonmotor <- get_data(all_data, "L254.tranSubsectorSpeed_nonmotor")
     A54.StubTranTech_passthru_India <- get_data(all_data, "gcam-india/A54.StubTranTech_passthru_India")
+    A54.finalenergykeyword_trn <- get_data(all_data,"gcam-india/A54.finalenergykeyword_trn")
     L254.StubTech_nonmotor <- get_data(all_data, "L254.StubTech_nonmotor")
     L254.PerCapitaBased_trn <- get_data(all_data, "L254.PerCapitaBased_trn")
     L254.PriceElasticity_trn <- get_data(all_data, "L254.PriceElasticity_trn")
