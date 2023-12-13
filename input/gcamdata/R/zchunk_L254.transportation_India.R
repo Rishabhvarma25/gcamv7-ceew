@@ -494,7 +494,7 @@ module_india_L254.transportation <- function(command, ...) {
       L254.DeleteSupplysector_Indiatrn %>%
       #add_title("delete transport for India full region") %>%
       add_units("NA") %>%
-      add_comments("Delect transportation supply sectors of the full India region") %>%
+      add_comments("Delete transportation supply sectors of the full India region") %>%
       add_precursors("L254.Supplysector_trn") ->
        L254.DeleteSupplysector_Indiatrn
 
