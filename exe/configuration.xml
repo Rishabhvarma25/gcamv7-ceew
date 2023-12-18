@@ -5,7 +5,7 @@
 		<Value name="BatchFileName">batch_ag.xml</Value>
 		<Value name="policy-target-file">../input/policy/forcing_target_4p5.xml</Value>
 		<Value name="GHGInputFileName">../input/magicc/inputs/input_gases.emk</Value>
-		<Value write-output="1" append-scenario-name="0" name="xmldb-location">../output/database_basexdb</Value>
+		<Value write-output="1" append-scenario-name="0" name="xmldb-location">../output/database_basexdb2</Value>
 		<Value write-output="1" append-scenario-name="0" name="restart">./restart/restart</Value>
 		<Value write-output="1" append-scenario-name="1" name="xmlDebugFileName">debug.xml</Value>
 		<Value write-output="1" append-scenario-name="0" name="climatFileName">gas.emk</Value>
@@ -148,15 +148,15 @@
 		<Value name = "Biomass constraint">../input/gcamdata/xml/India/Others/India_biomassliquids_weights_restrict.xml</Value>
 		
 		<!-- Transport -->
-		<!-- <Value name = "Transport India restructuring">../input/gcamdata/xml/transportation_India_new.xml</Value>	 -->
-		<Value name = "Transport shrwt">../input/gcamdata/xml/India/Transport/India_transport_share-weights_Ref.xml</Value>	
-		<Value name = "Transport income elasticity">../input/gcamdata/xml/India/Transport/India_transport_incm_elas_BAU.xml</Value>	
+		<Value name = "Transport India restructuring">../input/gcamdata/xml/transportation_India_new.xml</Value>
+		<!-- <Value name = "Transport shrwt">../input/gcamdata/xml/India/Transport/India_transport_share-weights_Ref.xml</Value>	 -->
+		<!-- <Value name = "Transport income elasticity">../input/gcamdata/xml/India/Transport/India_transport_incm_elas_BAU.xml</Value>	 -->
 
 		<!-- Building -->
 		<Value name = "Building India restructuring">../input/gcamdata/xml/building_india.xml</Value>	
-		<Value name = "Building shrwt">../input/gcamdata/xml/India/Building/India_building_share-weights_Ref6.xml</Value>
-		<Value name = "Building heating cooling days">../input/gcamdata/xml/India/Building/CDD_HDD_BAU.xml</Value>
-		<Value name = "Building fuel adder">../input/gcamdata/xml/India/Building/IndiaBuildingFuelAdder.xml</Value>
+		<!-- <Value name = "Building shrwt">../input/gcamdata/xml/India/Building/India_building_share-weights_Ref6.xml</Value> -->
+		<!-- <Value name = "Building heating cooling days">../input/gcamdata/xml/India/Building/CDD_HDD_BAU.xml</Value> -->
+		<!-- <Value name = "Building fuel adder">../input/gcamdata/xml/India/Building/IndiaBuildingFuelAdder.xml</Value> -->
 		
 	</ScenarioComponents>
 	<Strings>
