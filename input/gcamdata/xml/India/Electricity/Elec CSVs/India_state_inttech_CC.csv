@@ -47,7 +47,7 @@ India,electricity,solar,PV,2085,capital,60,0.2319
 India,electricity,solar,PV,2090,capital,60,0.2225
 India,electricity,solar,PV,2095,capital,60,0.2131
 India,electricity,solar,PV,2100,capital,60,0.2037
-India,elect_td_bld,	,rooftop_pv,1975,capital,2000,0.1125
+India,elect_td_bld,rooftop_pv,rooftop_pv,1975,capital,2000,0.1125
 India,elect_td_bld,rooftop_pv,rooftop_pv,1990,capital,2000,0.1125
 India,elect_td_bld,rooftop_pv,rooftop_pv,2005,capital,2000,0.1125
 India,elect_td_bld,rooftop_pv,rooftop_pv,2010,capital,2000,0.12091

@@ -10,3 +10,5 @@
 /exe/*.dll
 .Rproj.user
 /input/gcamdata/.drake
+/input/gcamdata/
+/input/gcamdata/renv

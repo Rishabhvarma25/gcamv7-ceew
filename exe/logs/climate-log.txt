@@ -1,0 +1,59 @@
+2023-18-12:17:24:23
+
+Starting new scenario: Reference
+Climate model is Hector.  Configuration:
+	hector-end-year = 2300
+	emissions-switch-year = 2005
+	hector-ini-file = ../input/climate/hector-gcam.ini
+Setting up stub Hector core.
+Parsing ini file= ../input/climate/hector-gcam.ini
+Tracking GCAM gas BC as Hector gas BC_emissions
+Tracking GCAM gas C2F6 as Hector gas C2F6_emissions
+Tracking GCAM gas CF4 as Hector gas CF4_emissions
+Tracking GCAM gas CH4 as Hector gas CH4_emissions
+Tracking GCAM gas CO as Hector gas CO_emissions
+Tracking GCAM gas CO2DACCCSUptake as Hector gas daccs_uptake
+Tracking GCAM gas CO2EmissionsLandUse as Hector gas luc_emissions
+Tracking GCAM gas CO2FFIEmissions as Hector gas ffi_emissions
+Tracking GCAM gas CO2UptakeLandUse as Hector gas luc_uptake
+Tracking GCAM gas HFC125 as Hector gas HFC125_emissions
+Tracking GCAM gas HFC134a as Hector gas HFC134a_emissions
+Tracking GCAM gas HFC143a as Hector gas HFC143a_emissions
+Tracking GCAM gas HFC227ea as Hector gas HFC227ea_emissions
+Tracking GCAM gas HFC23 as Hector gas HFC23_emissions
+Tracking GCAM gas HFC245fa as Hector gas HFC245fa_emissions
+Tracking GCAM gas HFC32 as Hector gas HFC32_emissions
+Tracking GCAM gas N2O as Hector gas N2O_emissions
+Tracking GCAM gas NH3 as Hector gas NH3_emissions
+Tracking GCAM gas NMVOCs as Hector gas NMVOC_emissions
+Tracking GCAM gas NOx as Hector gas NOX_emissions
+Tracking GCAM gas OC as Hector gas OC_emissions
+Tracking GCAM gas SF6 as Hector gas SF6_emissions
+Tracking GCAM gas SO2tot as Hector gas SO2_emissions
+Hector reset to period= 1
+Shutting down old Hector core.
+Setting up new Hector core.
+Parsing ini file= ../input/climate/hector-gcam.ini
+Skipping year= 1990 for gas= BC
+Skipping year= 1990 for gas= C2F6
+Skipping year= 1990 for gas= CF4
+Skipping year= 1990 for gas= CH4
+Skipping year= 1990 for gas= CO
+Skipping year= 1990 for gas= CO2DACCCSUptake
+Skipping year= 1990 for gas= CO2EmissionsLandUse
+Skipping year= 1990 for gas= CO2FFIEmissions
+Skipping year= 1990 for gas= CO2UptakeLandUse
+Skipping year= 1990 for gas= HFC125
+Skipping year= 1990 for gas= HFC134a
+Skipping year= 1990 for gas= HFC143a
+Skipping year= 1990 for gas= HFC227ea
+Skipping year= 1990 for gas= HFC23
+Skipping year= 1990 for gas= HFC245fa
+Skipping year= 1990 for gas= HFC32
+Skipping year= 1990 for gas= N2O
+Skipping year= 1990 for gas= NH3
+Skipping year= 1990 for gas= NMVOCs
+Skipping year= 1990 for gas= NOx
+Skipping year= 1990 for gas= OC
+Skipping year= 1990 for gas= SF6
+Skipping year= 1990 for gas= SO2tot
