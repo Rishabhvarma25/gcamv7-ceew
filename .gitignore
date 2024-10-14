@@ -9,7 +9,11 @@
 /README.md
 /exe/*.dll
 .Rproj.user
+/input/gcamdata/inst/.DS_Store
 /input/gcamdata/inst/extdata/gcam-usa
+/input/gcamdata/inst/extdata/Paper
+/input/gcamdata/inst/extdata/aglu
+/input/gcamdata/outputs
 /input/gcamdata/man
 /input/gcamdata/.drake
 /input/gcamdata/figures
@@ -20,3 +24,8 @@
 exe/debugReference.xml
 exe/debugReference.xml
 *.bak
+exe/configuration.xml
+
+
+
+/input/gcamdata/inst/extdata/gcam-india
