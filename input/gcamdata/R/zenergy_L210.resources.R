@@ -10,7 +10,7 @@
 #' a vector of output names, or (if \code{command} is "MAKE") all
 #' the generated outputs: \code{L210.Rsrc}, \code{L210.RenewRsrc}, \code{L210.UnlimitRsrc}, \code{L210.RsrcPrice}, \code{L210.RenewRsrcPrice},
 #' \code{L210.UnlimitRsrcPrice}, \code{L210.RsrcTechChange}, \code{L210.SmthRenewRsrcTechChange}, \code{L210.SmthRenewRsrcTechChange_offshore_wind}, \code{L210.RsrcCalProd}, \code{L210.ReserveCalReserve}, \code{L210.RsrcCurves_fos},
-#' \code{L210.RsrcCurves_U}, \code{L210.SmthRenewRsrcCurves_MSW}, \code{L210.SmthRenewRsrcCurves_wind}, \code{L210.SmthRenewRsrcCurves_offshore_wind}, \code{L210.SmthRenewRsrcCurvesGdpElast_roofPV},
+#' \code{L210.RsrcCurves_U}, \code{L210.SmthRenewRsrcCurves_MSW}, \code{L210.SmthRenewRsrcCurves_wind}, \code{L210.SmthRenewRsrcCurves_solar}, \code{L210.SmthRenewRsrcCurves_offshore_wind}, \code{L210.SmthRenewRsrcCurvesGdpElast_roofPV},
 #' \code{L210.GrdRenewRsrcCurves_geo}, \code{L210.GrdRenewRsrcMax_geo}, \code{L210.GrdRenewRsrcCurves_EGS}, \code{L210.GrdRenewRsrcMax_EGS},
 #' \code{L210.GrdRenewRsrcCurves_tradbio}, \code{L210.GrdRenewRsrcMax_tradbio}, \code{L210.RsrcTechChange_SSP1}, \code{L210.RsrcEnvironCost_SSP1},
 #' \code{L210.RsrcTechChange_SSP2}, \code{L210.RsrcEnvironCost_SSP2}, \code{L210.RsrcTechChange_SSP3}, \code{L210.RsrcEnvironCost_SSP3},
@@ -43,6 +43,7 @@ module_energy_L210.resources <- function(command, ...) {
              "L112.RsrcCurves_Mt_R_U",
              "L113.RsrcCurves_EJ_R_MSW",
              "L114.RsrcCurves_EJ_R_wind",
+             "L114.RsrcCurves_EJ_R_solar",
              "L115.RsrcCurves_EJ_R_roofPV",
              "L116.RsrcCurves_EJ_R_geo",
              "L116.RsrcCurves_EJ_R_EGS",
@@ -66,6 +67,7 @@ module_energy_L210.resources <- function(command, ...) {
              "L210.RsrcCurves_U",
              "L210.SmthRenewRsrcCurves_MSW",
              "L210.SmthRenewRsrcCurves_wind",
+             "L210.SmthRenewRsrcCurves_solar",
              "L210.SmthRenewRsrcCurves_offshore_wind",
              "L210.SmthRenewRsrcCurvesGdpElast_roofPV",
              "L210.GrdRenewRsrcCurves_geo",
@@ -139,6 +141,7 @@ module_energy_L210.resources <- function(command, ...) {
     L112.RsrcCurves_Mt_R_U <- get_data(all_data, "L112.RsrcCurves_Mt_R_U", strip_attributes = TRUE)
     L113.RsrcCurves_EJ_R_MSW <- get_data(all_data, "L113.RsrcCurves_EJ_R_MSW", strip_attributes = TRUE)
     L114.RsrcCurves_EJ_R_wind <- get_data(all_data, "L114.RsrcCurves_EJ_R_wind", strip_attributes = TRUE)
+    L114.RsrcCurves_EJ_R_solar <- get_data(all_data, "L114.RsrcCurves_EJ_R_solar", strip_attributes = TRUE)
     L115.RsrcCurves_EJ_R_roofPV <- get_data(all_data, "L115.RsrcCurves_EJ_R_roofPV", strip_attributes = TRUE)
     L116.RsrcCurves_EJ_R_geo <- get_data(all_data, "L116.RsrcCurves_EJ_R_geo", strip_attributes = TRUE)
     L116.RsrcCurves_EJ_R_EGS <- get_data(all_data, "L116.RsrcCurves_EJ_R_EGS", strip_attributes = TRUE)
@@ -428,6 +431,16 @@ module_energy_L210.resources <- function(command, ...) {
 
     # L210.SmthRenewRsrcCurves_wind: supply curves of wind resources
     L210.SmthRenewRsrcCurves_wind <- L114.RsrcCurves_EJ_R_wind %>%
+      # Add region name
+      left_join_error_no_match(GCAM_region_names, by = "GCAM_region_ID") %>%
+      mutate(maxSubResource = round(maxSubResource, energy.DIGITS_MAX_SUB_RESOURCE),
+             mid.price = round(mid.price, energy.DIGITS_MID_PRICE),
+             curve.exponent = round(curve.exponent, energy.DIGITS_CURVE_EXPONENT),
+             year.fillout = min(MODEL_BASE_YEARS)) %>%
+      select(region, renewresource = resource, smooth.renewable.subresource = subresource, year.fillout, maxSubResource, mid.price, curve.exponent)
+
+    # L210.SmthRenewRsrcCurves_solar: supply curves of solar resources
+    L210.SmthRenewRsrcCurves_solar <- L114.RsrcCurves_EJ_R_solar %>%
       # Add region name
       left_join_error_no_match(GCAM_region_names, by = "GCAM_region_ID") %>%
       mutate(maxSubResource = round(maxSubResource, energy.DIGITS_MAX_SUB_RESOURCE),
@@ -772,6 +785,14 @@ module_energy_L210.resources <- function(command, ...) {
       add_precursors("L114.RsrcCurves_EJ_R_wind", "common/GCAM_region_names") ->
       L210.SmthRenewRsrcCurves_wind
 
+    L210.SmthRenewRsrcCurves_solar %>%
+      add_title("Supply curves of solar resources") %>%
+      add_units("maxSubResource: EJ; mid.price: $1975/GJ") %>%
+      add_comments("Data from L114.RsrcCurves_EJ_R_solar") %>%
+      add_legacy_name("L210.SmthRenewRsrcCurves_solar") %>%
+      add_precursors("L114.RsrcCurves_EJ_R_solar", "common/GCAM_region_names") ->
+      L210.SmthRenewRsrcCurves_solar
+
     L210.SmthRenewRsrcCurves_offshore_wind %>%
       add_title("Supply curves of offshore wind resources") %>%
       add_units("maxSubResource: EJ; mid.price: $1975/GJ") %>%
@@ -894,7 +915,7 @@ module_energy_L210.resources <- function(command, ...) {
 
     return_data(L210.Rsrc, L210.RenewRsrc, L210.UnlimitRsrc, L210.RsrcPrice, L210.RenewRsrcPrice, L210.UnlimitRsrcPrice, L210.RsrcTechChange,
                 L210.SmthRenewRsrcTechChange, L210.SmthRenewRsrcTechChange_offshore_wind, L210.RsrcCalProd, L210.ReserveCalReserve, L210.RsrcCurves_fos, L210.RsrcCurves_U, L210.SmthRenewRsrcCurves_MSW,
-                L210.SmthRenewRsrcCurves_wind, L210.SmthRenewRsrcCurves_offshore_wind, L210.SmthRenewRsrcCurvesGdpElast_roofPV, L210.GrdRenewRsrcCurves_geo, L210.GrdRenewRsrcMax_geo,
+                L210.SmthRenewRsrcCurves_wind, L210.SmthRenewRsrcCurves_solar, L210.SmthRenewRsrcCurves_offshore_wind, L210.SmthRenewRsrcCurvesGdpElast_roofPV, L210.GrdRenewRsrcCurves_geo, L210.GrdRenewRsrcMax_geo,
                 L210.GrdRenewRsrcCurves_EGS, L210.GrdRenewRsrcMax_EGS, L210.GrdRenewRsrcCurves_tradbio, L210.GrdRenewRsrcMax_tradbio, L210.RsrcTechChange_SSP1,
                 L210.RsrcEnvironCost_SSP1, L210.RsrcTechChange_SSP2, L210.RsrcEnvironCost_SSP2, L210.RsrcTechChange_SSP3, L210.RsrcEnvironCost_SSP3,
                 L210.RsrcTechChange_SSP4, L210.RsrcEnvironCost_SSP4, L210.RsrcTechChange_SSP5, L210.RsrcEnvironCost_SSP5,
