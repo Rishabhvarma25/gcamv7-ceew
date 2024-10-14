@@ -91,67 +91,67 @@
                     <total-factor-productivity>1.06836</total-factor-productivity>
                 </nationalAccount>
                 <nationalAccount year="2025">
-                    <GDP>1986600</GDP>
+                    <GDP>2049280</GDP>
                     <total-factor-productivity>1.12444</total-factor-productivity>
                 </nationalAccount>
                 <nationalAccount year="2030">
-                    <GDP>2756490</GDP>
+                    <GDP>2969480</GDP>
                     <total-factor-productivity>1.19406</total-factor-productivity>
                 </nationalAccount>
                 <nationalAccount year="2035">
-                    <GDP>3709730</GDP>
+                    <GDP>4184350</GDP>
                     <total-factor-productivity>1.24777</total-factor-productivity>
                 </nationalAccount>
                 <nationalAccount year="2040">
-                    <GDP>4854460</GDP>
+                    <GDP>5725300</GDP>
                     <total-factor-productivity>1.29387</total-factor-productivity>
                 </nationalAccount>
                 <nationalAccount year="2045">
-                    <GDP>6193040</GDP>
+                    <GDP>7510550</GDP>
                     <total-factor-productivity>1.3311</total-factor-productivity>
                 </nationalAccount>
                 <nationalAccount year="2050">
-                    <GDP>7720610</GDP>
+                    <GDP>9471040</GDP>
                     <total-factor-productivity>1.37034</total-factor-productivity>
                 </nationalAccount>
                 <nationalAccount year="2055">
-                    <GDP>9425700</GDP>
+                    <GDP>11583100</GDP>
                     <total-factor-productivity>1.41403</total-factor-productivity>
                 </nationalAccount>
                 <nationalAccount year="2060">
-                    <GDP>1.13E+07</GDP>
+                    <GDP>13807300</GDP>
                     <total-factor-productivity>1.46032</total-factor-productivity>
                 </nationalAccount>
                 <nationalAccount year="2065">
-                    <GDP>1.33E+07</GDP>
+                    <GDP>16082200</GDP>
                     <total-factor-productivity>1.50349</total-factor-productivity>
                 </nationalAccount>
                 <nationalAccount year="2070">
-                    <GDP>1.54E+07</GDP>
+                    <GDP>18318600</GDP>
                     <total-factor-productivity>1.55063</total-factor-productivity>
                 </nationalAccount>
                 <nationalAccount year="2075">
-                    <GDP>1.76E+07</GDP>
+                    <GDP>20457300</GDP>
                     <total-factor-productivity>1.60228</total-factor-productivity>
                 </nationalAccount>
                 <nationalAccount year="2080">
-                    <GDP>1.98E+07</GDP>
+                    <GDP>22442900</GDP>
                     <total-factor-productivity>1.65299</total-factor-productivity>
                 </nationalAccount>
                 <nationalAccount year="2085">
-                    <GDP>2.20E+07</GDP>
+                    <GDP>24177400</GDP>
                     <total-factor-productivity>1.70707</total-factor-productivity>
                 </nationalAccount>
                 <nationalAccount year="2090">
-                    <GDP>2.41E+07</GDP>
+                    <GDP>25790300</GDP>
                     <total-factor-productivity>1.76365</total-factor-productivity>
                 </nationalAccount>
                 <nationalAccount year="2095">
-                    <GDP>2.62E+07</GDP>
+                    <GDP>27240300</GDP>
                     <total-factor-productivity>1.82245</total-factor-productivity>
                 </nationalAccount>
                 <nationalAccount year="2100">
-                    <GDP>2.83E+07</GDP>
+                    <GDP>28629900</GDP>
                     <total-factor-productivity>1.8845</total-factor-productivity>
                 </nationalAccount>
             </nationalAccountContainer>
